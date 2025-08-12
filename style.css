@@ -1,0 +1,220 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.gallary{
+    text-align: center;
+}
+
+#navbar {
+    text-align: end;
+    background-color: rgb(17, 132, 233);
+    padding: 20px;
+
+}
+.two-section{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.gallary img{
+transition: .3s;
+border-radius: 10px;
+}
+.gallary img:hover{
+   transform: scale(1.1);
+   
+}
+
+.two-section{
+    padding: 100px;
+}
+
+.two-section .spider{
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+}
+input{
+ display: flex;
+ background-color:burlywood;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 50px;
+}
+button {
+    background-color:  rgb(17, 132, 233);
+   height: 30px;
+   border-radius: 20px;
+   width:100px ;
+   margin-top: 20px;
+}
+
+#logo {
+
+    color: black;
+}
+
+header a {
+    color: white;
+    margin-right: 26px;
+    text-decoration: none;
+}
+
+ body{
+  background-color: tan;
+  color: black;
+}
+
+
+
+    
+
+
+.first-section {
+    height: 600px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.first-section h1 {
+    font-size: 50px;
+
+}
+
+.first-section h1 span {
+    color:  rgb(17, 132, 233);
+}
+
+
+
+.two-section h1  {
+    padding: 60px;
+    font-size: 60px;
+}
+
+.two-section {
+    background-color: rgb(17, 132, 233);
+}
+
+.there-section h1 {
+    text-align: center;
+    padding: 100px;
+    height: 400px;
+}
+
+
+.there-section{
+    background-color: black;
+    width: 100%;
+    
+}
+.there-sectionh1{
+    r:  rgb(17, 132, 233) ;
+
+}
+
+
+.contentbox {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#content {
+    height: 100px;
+   
+}
+footer {
+ background-color: rgb(17, 132, 233);
+    color: white;
+    text-align: center;
+    height: 200px;
+    font-size: 30px;
+}
+
+button:hover {
+    background-color: aqua;
+}
+
+/* .pic{
+    height: 100px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     */
+
+/* .two-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+/* .spider{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+} */
+ i{
+    color:black;
+ }
+ i:hover{
+    scale: 1.1;
+    color: antiquewhite;
+    
+ }
+ 
+.two-section h1 {
+    padding: 30px;
+    margin: 30px;
+    font-size: 50px;
+
+}
+
+
+/* start-mobile */
+@media  only screen and ( max-width: 500px) {
+    body{
+     background-color:red ;
+ }
+
+ .first-section h1{
+    font-size:22px;
+    
+ }
+.first-section p{
+  font-size: small;
+
+}
+
+
+}
+
+.two-section .spider{
+    height: 100px;
+    width: 100px;
+   
+}
+
+ .two-section{
+     display: flex;  
+     flex-wrap: wrap;
+      padding: 50px;
+
+} 
+
+
+/* end-mobile */
